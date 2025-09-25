@@ -17,6 +17,7 @@
             <div>
                 <form method="POST" action="{% url 'open_booster' %}">
                     {% csrf_token %}
+                    <button type="submit" class="btn btn-primary">Abrir</button>
                 </form>
             </div>
             {% endfor %}
